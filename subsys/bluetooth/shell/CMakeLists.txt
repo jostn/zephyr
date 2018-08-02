@@ -7,7 +7,7 @@ zephyr_library_sources_ifdef(
   gatt.c
   )
 zephyr_library_sources_ifdef(
-  CONFIG_BT_CTLR
+  CONFIG_BT_LL_SW
   ll.c
   ticker.c
   )
