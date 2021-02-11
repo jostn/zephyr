@@ -23,6 +23,7 @@
 #include <hal/nrf_gpio.h>
 #include <hal/nrf_oscillators.h>
 #include <hal/nrf_regulators.h>
+#include <hal/nrf_clock.h>
 #elif defined(CONFIG_SOC_NRF5340_CPUNET)
 #include <hal/nrf_nvmc.h>
 #endif
